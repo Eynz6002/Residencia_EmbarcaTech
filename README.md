@@ -16,7 +16,7 @@ Para compilar e rodar este código, você precisará configurar o ambiente de de
 
 O código possui uma configuração essencial que você **precisa alterar** antes de compilar: as credenciais da sua rede Wi-Fi.
 
-Abra o arquivo `.c` ([U2_C3_Question1.c](U2_C3_Question1) ou [U2_C3_Question2.c](U2_C3_Question2)) em um editor de texto. Procure pelas seguintes linhas:
+Abra o arquivo `.c` ([U2_C3_Question1.c](U2_C3_Question1/Problema_1.md) ou [U2_C3_Question2.c](U2_C3_Question2/Problema_2.md)) em um editor de texto. Procure pelas seguintes linhas:
 
 ```c
 #define WIFI_SSID "<Nome_da_rede>"
