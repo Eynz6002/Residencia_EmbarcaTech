@@ -9,8 +9,8 @@
 #include "lwip/tcp.h"
 #include "lwip/netif.h"
 
-#define WIFI_SSID "<Nome_REDE>"
-#define WIFI_PASSWORD "Senha_REDE"
+#define WIFI_SSID "<Nome_da_rede>"
+#define WIFI_PASSWORD "<Senha_da_rede>"
 
 char html[1024];
 char status_button[20];
@@ -118,6 +118,7 @@ int main()
 
     //Tenta conectar ao Wifi, se não retorna -1
     printf("Conectando ao Wi-Fi...\n");
+
     while (cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 20000))
     {
         printf("Falha ao conectar ao Wi-Fi\n");

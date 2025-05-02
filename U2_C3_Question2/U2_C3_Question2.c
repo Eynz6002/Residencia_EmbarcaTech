@@ -7,8 +7,8 @@
 #include "lwip/netif.h"
 #include "libs/adc_controller.h"
 
-#define WIFI_SSID "MillyPhb_ENZO"
-#define WIFI_PASSWORD "ejel1711"
+#define WIFI_SSID "<Nome_da_rede>"
+#define WIFI_PASSWORD "<Senha_da_rede>"
 
 char html[1024]; //Armazena o código HTML da página web a ser enviada
 char direction[15]; //Armazena a direção calculada.

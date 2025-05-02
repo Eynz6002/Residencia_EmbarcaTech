@@ -11,6 +11,19 @@
 
 O programa inicia um servidor web para exibir se os botões A ou B está sendo pressionado. Além disso, também é feito o monitoramento da temperatura interna da placa.
 
+### **IP**
+![](img/IP.png)
+
+### **Estado 1**
+![](img/Estado_1.png)
+
+### **Estado 2**
+![](img/Estado_2.png)
+
+### **Estado 3**
+![](img/Estado_3.png)
+
+
 ## **Descrição do Funcionamento**
 
 ### **Inicialização dos GPIOs e do ADC**

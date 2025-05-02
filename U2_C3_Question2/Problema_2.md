@@ -9,6 +9,36 @@
 
 O programa inicia um servidor web para exibir a direção do joystick (a exibição do joystick é no formato de uma rosa dos ventos).
 
+### **IP**
+![](img/IP.png)
+
+### **Estado Centro**
+![](img/Estado_Centro.png)
+
+### **Estado Norte**
+![](img/Estado_Norte.png)
+
+### **Estado Noroeste**
+![](img/Estado_Noroeste.png)
+
+### **Estado Nordeste**
+![](img/Estado_Nordeste.png)
+
+### **Estado Sul**
+![](img/Estado_Sul.png)
+
+### **Estado Sudoeste**
+![](img/Estado_Sudoeste.png)
+
+### **Estado Sudeste**
+![](img/Estado_Sudeste.png)
+
+### **Estado Oeste**
+![](img/Estado_Oeste.png)
+
+### **Estado Leste**
+![](img/Estado_Leste.png)
+
 ## **Descrição do Funcionamento**
 
 ### **Inicialização do ADC**
