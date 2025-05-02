@@ -50,7 +50,6 @@ pico_enable_stdio_usb(U2_C3_Question1 1)
 # Add the standard library to the build
 target_link_libraries(U2_C3_Question1
         pico_stdlib
-        hardware_i2c
         hardware_adc
         hardware_gpio
         pico_cyw43_arch_lwip_threadsafe_background

@@ -9,8 +9,8 @@
 #include "lwip/tcp.h"
 #include "lwip/netif.h"
 
-#define WIFI_SSID "MillyPhb_ENZO"
-#define WIFI_PASSWORD "ejel1711"
+#define WIFI_SSID "<Nome_REDE>"
+#define WIFI_PASSWORD "Senha_REDE"
 
 char html[1024];
 char status_button[20];
@@ -125,8 +125,9 @@ int main()
         return -1;
     }
     
-    //Exibe o IP da placa
     printf("Conectado ao Wi-Fi\n");
+    
+    //Exibe o IP da placa
     if (netif_default)
     {
         printf("IP do dispositivo: %s\n", ipaddr_ntoa(&netif_default->ip_addr));

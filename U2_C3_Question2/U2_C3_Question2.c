@@ -142,11 +142,9 @@ void rosa_dos_ventos()
 }
 int main()
 {
-    // Inicializa a comunicação serial padrão (geralmente via USB) para poder usar printf
     stdio_init_all();
     //Inicialização do ADC
     init_joystick();
-    printf("Joystick inicializado.\n");
 
     //Inicialização do wifi, se não conectar retorna -1
     while (cyw43_arch_init())
