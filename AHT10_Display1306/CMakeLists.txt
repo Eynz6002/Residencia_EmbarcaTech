@@ -38,6 +38,7 @@ pico_sdk_init()
 add_executable(AHT10_Display1306 AHT10_Display1306.c 
         source/ssd1306_i2c.c
         source/display.c
+        source/aht10.c
         )
 
 pico_set_program_name(AHT10_Display1306 "AHT10_Display1306")
